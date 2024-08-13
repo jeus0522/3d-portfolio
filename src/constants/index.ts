@@ -51,14 +51,9 @@ export const NAV_LINKS = [
     link: null,
   },
   {
-    id: "contact",
-    title: "Contact",
-    link: null,
-  },
-  {
     id: "source-code",
     title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
+    link: "http://www.github.com/jeus522/3d-portfolio/",
   },
 ] as const;
 
@@ -69,7 +64,7 @@ export const SERVICES = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AI Developer",
     icon: mobile,
   },
   {
@@ -141,55 +136,55 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Senior Front-end Developer",
+    company_name: "Beqom",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2015 - April 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Uplifted legacy UI elements into a modern React framework for this global HR product.",
+      "Fixed migration issues and challenges between a legacy and modern UI approach.",
+      "Improved stability and performance, making the product considerably better.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Node.js Developer",
+    company_name: "Kalios, Inc",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2017 - Feb 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Improved the performance of a Node.js back-end project by changing the approach and libraries that were being used.",
+      "Updated and fixed some issues related to FunCaptcha on the project.",
+      "Developed a new solution approach for the issue the client faced with FunCaptcha, increasing performance at least tenfold.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Senior Full-stack Developer",
+    company_name: "TrackerBuddy",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Aug 2019 - Jan 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed the ability to create custom trackers and built components in React and Ruby on Rails.",
+      "Built a user interface to display the tracker's data in different ways: calendars, line charts, and bar charts.",
+      "Used Redux for state management, developed action creators and reducers.",
+      "Built the entire control flow, from sign-up to login and account deletion. Developed React components and Ruby on Rails models and controllers.",
+      "Developed a responsive application to work on mobile devices.",
+      "Developed an API for front-end React components with token authentication.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Senior Software Engineer",
+    company_name: "Citibank",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "April 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Acted as lead project developer, prepared a demonstration to the board member of Citibank, and designed the architecture for complex documentation analysis service with React, OpenAI, prompt engineering, RAG, and LangChain (Python).",
+      "Designed the front-end architecture with React router, React query, and Redux toolkit for a scalable and maintainable structure.",
+      "Led the design of an in-house primitive UI library for better developer velocity.",
+      "Adopted a concrete testing strategy for delivering complex Go applications, including front and back end.",
     ],
   },
 ] as const;
@@ -225,31 +220,10 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Shopify Site for Ledbury",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
-  },
-  {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "An ever-changing Shopify site that includes many common eCommerce elements and features, including sort and filtering, \
+      newsletter signup, gift cards, lazy loading images, mega dropdown menus, and ADA and SEO optimization..",
     tags: [
       {
         name: "react",
@@ -264,14 +238,15 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
+    image: project1,
+    source_code_link: "https://www.ledbury.com/",
+    live_site_link: "https://www.ledbury.com/",
   },
   {
-    name: "Shoppy",
+    name: "Droppp",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+      "Droppp is the premier platform for buying and collecting pop culture NFTs with super easy and secure purchase methods and \
+      I worked on this project as a full-stack developer, implementing purchase/transfer/ delivery logic and notification system.",
     tags: [
       {
         name: "react",
@@ -286,14 +261,15 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
+    image: project2,
+    source_code_link: "https://droppp.io",
+    live_site_link: "https://droppp.io",
   },
   {
-    name: "TikTok Clone",
+    name: "Foxie",
     description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
+      "Foxie is a cloud communication platform to personalize customer communications in a simple, flexible, and cost-effective way. \
+      I worked on the admin dashboard where business owners can manage their direct inward dialing numbers (DID) and billings.",
     tags: [
       {
         name: "nextjs",
@@ -308,14 +284,38 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
+    image: project3,
+    source_code_link: "https://foxie.com",
+    live_site_link: "https://foxie.com",
   },
   {
-    name: "Cryptoverse",
+    name: "Kiwi.com - Airline Ticket Booking",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "As a senior software engineer, I implemented the payment module using card payments, Apple payments, and others. \
+      The main focus was on system reliability and error handling. My team used an advanced monitoring tool (Datadog) and reports to track all payments.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project4,
+    source_code_link: "http://www.kiwi.com",
+    live_site_link: "http://www.kiwi.com",
+  },
+  {
+    name: "WooCommerce Website for Diet Store",
+    description:
+      "Ketogrocer.my is a WooCommerce-based eCommerce site that sells food products for keto dieters in Malaysia. \
+      I built the site entirely for the client, from the design of the site, the logo, and the content, to the setting up of the payment gateways.",
     tags: [
       {
         name: "react",
@@ -331,13 +331,13 @@ export const PROJECTS = [
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
+    source_code_link: "http://ketogrocer.my",
+    live_site_link: "http://ketogrocer.my",
   },
   {
-    name: "Travel Advisor",
+    name: "Design and Development of a Government COVID-19 Data Portal",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "I designed and built the back end and data pipelines, data storytelling, visualization of key COVID-19 indicators, and modeling of vaccination projections.",
     tags: [
       {
         name: "react",
@@ -353,30 +353,15 @@ export const PROJECTS = [
       },
     ],
     image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+    source_code_link: "https://covidnow.moh.gov.my/",
+    live_site_link: "https://covidnow.moh.gov.my/",
   },
 ] as const;
 
 export const SOCIALS = [
   {
-    name: "YouTube",
-    icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
-  },
-  {
-    name: "Linkedin",
-    icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
-  },
-  {
-    name: "Twitter",
-    icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
-  },
-  {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/davidjeus",
   },
 ] as const;

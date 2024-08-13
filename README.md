@@ -64,15 +64,12 @@ Here is the folder structure of this app.
         |--- canvas/
         |--- about.tsx
         |--- banner.tsx
-        |--- contact.tsx
         |--- experience.tsx
-        |--- feedbacks.tsx
         |--- footer.tsx
         |--- hero.tsx
         |--- index.ts
         |--- loader.tsx
         |--- navbar.tsx
-        |--- tech.tsx
         |--- works.tsx
     |-- constants/
         |--- index.ts
