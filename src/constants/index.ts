@@ -362,6 +362,6 @@ export const SOCIALS = [
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/davidjeus",
+    link: "https://github.com/jeus0522",
   },
 ] as const;
