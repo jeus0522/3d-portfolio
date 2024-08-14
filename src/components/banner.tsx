@@ -50,14 +50,14 @@ const Banner = ({ hide, setHide }: BannerProps) => {
           </span>
           <span>
             Did you like this portfolio. Check out my{" "}
-            <Link
-              to="https://www.sanidhy.me"
+            {/* <Link
+              to=""
               target="_blank"
               rel="noreferrer noopener"
               className="inline font-medium text-blue-600 underline underline-offset-2 decoration-600 hover:no-underline"
-            >
+            > */}
               new portfolio
-            </Link>
+            {/* </Link> */}
             .
           </span>
         </p>
